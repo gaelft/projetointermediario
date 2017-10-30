@@ -1,10 +1,16 @@
-.cabe{
+.cabeçalho{
+	width:120px;
+	background-image: url(assets/ft-header.jpg);
+}
+.cabeçalho-img{
 	width: 100px
 }
 
 .menu{
 	display: flex;
-	justify-content: flex-end;
-	justify-content: space-around;
+	justify-content:space-around;
+	font-size: 35px;
+
+	
 	
 }

@@ -1,16 +1,46 @@
-.cabeçalho{
-	width:120px;
-	background-image: url(assets/ft-header.jpg);
-}
-.cabeçalho-img{
-	width: 100px
-}
+body {
+	background: #f0f;
+	margin: 0;
 
-.menu{
+}
+.cabecalho {
+	background: url("assets/ft-header.jpg") center no-repeat;
+	width: 100%;
+	height: 70vh;
 	display: flex;
-	justify-content:space-around;
-	font-size: 35px;
+	justify-content: space-between;
+	align-items: flex-start;
 
-	
-	
 }
+.logo{
+	width: 150px;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.menu {
+	/*display: flex;
+	flex-direction: row;*/
+	margin-top: 5%;
+	margin-right: 5%;
+	justify-content: space-around;
+	font-size: 35px;
+}
+
+.menu-item{
+	background: rgba(255,255,255, 0.75);
+	border-radius: 30px;
+	margin: 15px;
+}
+
+.main {
+
+}
+
+.rodapé {
+	display: flex;
+	justify-content: flex-end;
+	
+
+}
+
